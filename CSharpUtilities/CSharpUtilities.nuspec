@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/CodeSlinger42/CSharpUtilities</projectUrl>
+    <description>$description$</description>
+    <releaseNotes>Adding explicit OnPropertyChanged helper so Fody will work even with this in a separate assembly.</releaseNotes>
+    <copyright>Copyright 2020</copyright>
+    <tags>MVVM .Net C# RelayCommand</tags>
+    <dependencies>
+        <group targetFramework=".NETFramework4.6.1" />
+    </dependencies>	
+  </metadata>
+</package>

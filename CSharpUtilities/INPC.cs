@@ -12,6 +12,16 @@ namespace CSharpUtilities
     /// </summary>
     public class INPC : INotifyPropertyChanged
     {
+        /// <summary>
+        /// Raises the property changed event.
+        /// </summary>
+        /// <param name="name">Name of the property that changed.</param>
+        public void OnPropertyChanged(string name)
+        {
+            var e = new PropertyChangedEventArgs(name);
+            PropertyChanged?.Invoke(this, e);
+        }
+
         /// <inheritdoc/>
         public event PropertyChangedEventHandler PropertyChanged;
     }
